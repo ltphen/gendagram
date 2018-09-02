@@ -256,3 +256,43 @@ ul li:nth-child(1){
     }
 
 }
+
+/* Sign In page */
+
+.bordered{
+    border: 2px solid #f3f3f3;
+}
+.form-wrapper{
+    margin-top: 2% !important;
+}
+
+.form-wrapper .inputs:nth-child(1){
+    padding: 2em 0px 0.5em !important;
+}
+
+.form-wrapper .inputs:nth-child(2){
+    padding: 1em 0px 2em !important;
+}
+
+.form-wrapper .inputs i{
+    color: grey;
+}   
+
+.after-form{
+    border-top: 2px solid #f3f3f3;
+    padding: 2em !important;
+}
+
+.sign-logo{
+    padding-top:  1em !important; 
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.sign-main{
+    height: 50%;
+    /*background: url(./../assets/images/trianglify.png);*/
+    overflow: visible;
+}
