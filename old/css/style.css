@@ -1,0 +1,63 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Black.otf");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Regular.otf");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Light.otf");
+    font-weight: lighter;
+}
+
+body{
+    font-family: ProximaNova;
+}
+.navbar{
+    padding: 1%;
+}
+.full-section{
+    height: 82%;
+}
+h1, h2{
+    font-weight: bolder;
+}
+.full-section .slider p{
+    padding: 3% 1%;
+}
+.btn{
+    border-radius: 20px;
+}
+.btn-large{
+    border-radius: 30px;
+}
+.toped{
+    margin-top: -100px;
+}
+body{
+    color: #565656;
+}
+.pd-t-5{
+    padding: 5% !important;
+}
+.pd-0{
+    padding: 0px !important;
+}
+.discover-entreprise{
+    background-image: url('../images/martin-shreder-349256-unsplash.jpg');
+    background-size: cover;
+}
+.overlaw{
+    background: rgba(0, 0, 0, 0.4);
+}

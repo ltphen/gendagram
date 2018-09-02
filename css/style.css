@@ -1,0 +1,253 @@
+body{
+    margin: 0px auto;
+    font-family: ProximaNova;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Black.otf");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Regular.otf");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url("../assets/fonts/ProximaNova/ProximaNova-Light.otf");
+    font-weight: lighter;
+}
+
+.logo{
+    /*font-family: Montserrat, ProximaNova;*/
+    font-weight: bold;
+    padding: 6px 6px 6px 6px;
+    font-size: 20px;
+    font-family: arvo;
+    font-weight: bold;
+}
+
+.testimonies-panel h5{
+    padding: 2em !important;
+    color : #d0d0d0;
+}
+
+.image-top{
+    margin-top: -60px !important;
+}
+
+.btn{
+    /*border-radius: 30px !important;*/
+}
+
+.outline{
+    background: transparent !important;
+    border: 2px solid #e4e4e4 !important;
+}
+
+.testimonie{
+ border: 1px solid #e4e4e4 !important
+}
+
+.testimonies .col{
+    padding: .75em !important;
+}
+
+.testimonies-panel h3{
+    padding: 1em !important;
+}
+
+.testimonies-panel .play-bouton{
+    padding : 5em !important;
+}
+
+.play-bouton img:hover{
+    border : 2px solid white !important;
+    transition: 0.3s all;
+    cursor: pointer
+}
+.app-presentation div{
+    padding: .75em !important;
+}
+
+.entreprise-contact{
+    height:300px !important;
+}
+
+.pd-0{
+    padding: 0px !important;
+}
+
+h2{
+    font-weight: bold !important;
+}
+.col{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.main-slider{
+    height: 75%;
+    overflow: hidden;
+}
+.slider-text{
+    padding: 8em 1em !important;
+}
+
+.no-shadow{
+    box-shadow: none !important;
+}
+
+.slider-text h2{
+    margin-bottom: 1em !important;
+}
+.sell-it-section{
+    padding: 1em 1em 2em !important;
+}
+header{
+    border-bottom: 2px solid #ececec;
+    /*padding: 0.4em 0em 0.4em !important; */
+    margin-bottom: 0px !important;
+    padding: 10px 20px !important;
+
+}
+.services-part{
+    /* background: url("./../assets/images/pattern.png"); */
+    padding: 1.3em 1em !important;
+    border-bottom: 2px solid #ececec;
+    background: #f3f3f3;
+}
+
+.sell-it-section .btn-large{
+    margin-left: 20px !important;
+}
+
+.alt-background{
+    background: #f3f3f3;
+    border-bottom: 2px solid #ececec;
+}
+
+.services-part>div{
+    padding: 3em 1em !important;
+    
+}
+h4{
+    font-weight: bold !important;
+}
+.services-part i{
+    font-size: 2em !important;
+    
+}
+
+
+.app-presentation{
+    padding: 0em 1em !important;
+}
+.section img{
+    padding: 5em !important;
+}
+.section .text{
+    padding: 8em 1em  !important;
+}
+
+.testimonies-panel{
+    /* background: url('./../assets/images/estee-janssens-396876-unsplash.jpg'); */
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+.testimonies-panel h4{
+    padding: 1.5em !important;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold !important;
+}
+.testimonies-textual img{
+    display: inline-block !important;
+    margin: 1.5em ;
+    border: 3px solid #c6d3d3;
+}
+.testimonies-textual{
+    height: 45% !important;
+}
+.testimonies{
+    padding: 1.78em !important;
+    border-bottom: 2px solid #ececec;
+
+}
+.testimonies p{
+    font-style: italic;
+}
+
+.testimonies h3{
+    padding: 1em;
+}
+
+li {
+    padding: 0.3em;
+}
+
+ul li:nth-child(1){
+    font-weight: bold;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 640px) {
+    .slider-text {
+        padding: 2em 1em !important;
+    }
+
+    .testimonies-panel h3{
+        padding: 0px !important;
+    }
+
+    .section .text {
+        padding: 2em 1em !important;        
+    }
+    .section img {
+        padding: 1em !important;
+    }   
+    .entreprise-contact{
+        height:350px !important;
+    }
+    .testimonies-panel h4 {
+        padding: 1.5em 0 !important;
+    }
+    .testimonies {
+        padding: 1.78em 0 !important;
+    }
+    .testimonies h3 {
+        padding: 1em 0;
+    }
+
+}
+
+
+@media screen and (max-width: 770px) and (min-width: 640px) {
+    .section .text {
+        padding: 4em 1em !important;        
+    }
+    .section img {
+        padding: 2em !important;
+    }   
+
+    .testimonies {
+        padding: 1.78em 0 !important;
+    }
+    .testimonies h3 {
+        padding: 1em 0;
+    }
+
+}
